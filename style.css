@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.play-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.play-button:hover {
+    background-color: #0056b3;
+}
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.wrong {
+    background-color: red;
+    color: white;
+}
+#progress-bar {
+    width: 100%;
+    background-color: #ddd;
+}
+
+#progress {
+    width: 0;
+    height: 20px;
+    background-color: #4caf50;
+}
+
+.end-container {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+#final-score {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
